@@ -78,6 +78,7 @@ body{
     text-align: center;
     font-size: var(--next-font-size);
     color: var(--text);
+    margin-top: 1rem;
     margin-bottom: 5rem;
     display: block;
 }
