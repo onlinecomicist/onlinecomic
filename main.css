@@ -23,19 +23,19 @@ body{
 }
 
 .page{
-    max-width: 50vw;
+    max-width: 40vw;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .panel{
     border: var(--border) solid .1rem;
-    max-width: 50vw;
+    max-width: inherit;
 }
 
 @media screen and (max-width: 360px){
-    .panel{
-        max-width: 90vw;
-    }
     .page{
         max-width: 90vw;
     }
