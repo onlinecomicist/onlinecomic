@@ -48,10 +48,14 @@ body{
 .title{
     font-size: var(--title-font-size);
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 .subtitle{
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 .onlinegirl {
