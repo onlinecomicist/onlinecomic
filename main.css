@@ -42,6 +42,17 @@ body{
     text-align: left;
 }
 
+.onlinegirl{
+    justify-content: left;
+    max-width: 60%;
+}
+
+.maninthelight{
+    justify-content: right;
+    text-align: right;
+    max-width: 60%;
+}
+
 .btn{
     text-align: center;
     font-size: var(--next-font-size);
