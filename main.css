@@ -109,3 +109,8 @@ body{
 .btn:visited{
     color: var(--text);
 }
+
+.footer{
+    font-size: .6rem;
+    color: #999999;
+}
