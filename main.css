@@ -1,7 +1,7 @@
 :root{
     --default-font-size: 1.2rem;
     --title-font-size: 2.4rem;
-    --next-font-size: 1.6rem;
+    --button-font-size: 1.6rem;
     --bg: #000000;
     --text: #FFFFFF;
     --border: #FFFFFF;
@@ -78,13 +78,13 @@ body{
 
 .btncluster{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: var(--current-width);
 }
 
 .btn{
     text-align: center;
-    font-size: var(--next-font-size);
+    font-size: var(--button-font-size);
     color: var(--text);
     margin-top: 1rem;
     margin-bottom: 5rem;
