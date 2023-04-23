@@ -6,7 +6,15 @@
     --text: #FFFFFF;
     --border: #FFFFFF;
     --textbox-width: 75%;
+    --current-width: 40vw;
   }
+
+@media screen and (max-width: 720px){
+    :root{
+        --current-width: 90vw;
+    }
+}
+
 html{
 	background-color: var(--bg);
     color: var(--text);
@@ -24,7 +32,7 @@ body{
 }
 
 .page{
-    max-width: 40vw;
+    max-width: var(--current-width);
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -32,18 +40,12 @@ body{
 }
 
 .panelhousing{
-    max-width: inherit;
+    max-width: var(--current-width);
 }
 
 .panel{
     border: var(--border) solid .1rem;
-    max-width: inherit;
-}
-
-@media screen and (max-width: 720px){
-    .page{
-        max-width: 90vw;
-    }
+    max-width: var(--current-width);
 }
 
 .title{
@@ -77,6 +79,7 @@ body{
 .btncluster{
     display: flex;
     justify-content: space-evenly;
+    width: var(--current-width);
 }
 
 .btn{
