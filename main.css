@@ -13,8 +13,19 @@ html{
 }
 
 body{
-    text-align: left;
+    position: relative;
+    display: flex;
+    height: 95vh;
     font-size: var(--default-font-size);
+    padding: 2.5vh;
+    margin: 0;
+    justify-content: center;
+}
+
+.panel{
+    border: var(--border) solid .1rem;
+    max-width: 50vw;
+    max-height: 50vh;
 }
 
 .title{
@@ -26,19 +37,18 @@ body{
     text-align: center;
 }
 
-.panelhousing{
-    text-align: center;
-    padding-top: 2rem;
-}
-
-.panel{
-    border: var(--border) solid .1rem;
-    height: auto;
-    width: auto;
-    max-height: 70vh;
-    max-width: 50vh;
+.page{
+    max-width: 50vw;
+    text-align: left;
 }
 
 .btn{
+    text-align: center;
     font-size: var(--next-font-size);
+    color: var(--text);
+}
+
+.btn:visited{
+    font-size: var(--next-font-size);
+    color: var(--text);
 }
