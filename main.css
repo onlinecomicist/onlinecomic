@@ -111,7 +111,7 @@ body{
 }
 
 .footer{
-    font-size: .8rem;
+    font-size: 1rem;
     color: #444444;
-    margin-bottom: .5rem;
+    padding-bottom: 1rem;
 }
