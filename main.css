@@ -78,13 +78,10 @@ body{
     text-align: center;
     font-size: var(--next-font-size);
     color: var(--text);
+    margin-bottom: 5rem;
 }
 
 .btn:visited{
     font-size: var(--next-font-size);
     color: var(--text);
-}
-
-.footer{
-    font-size: 5rem;;
 }
