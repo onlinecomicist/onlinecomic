@@ -49,13 +49,13 @@ body{
     font-size: var(--title-font-size);
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
 }
 
 .subtitle{
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 .onlinegirl {
