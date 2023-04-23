@@ -3,7 +3,10 @@
     --title-font-size: 2.4rem;
     --button-font-size: 1.6rem;
     --bg: #000000;
-    --text: #FFFFFF;
+    --spoken: #FFFFFF;
+    --metatext: #FFFFFF;
+    --onlinegirl-text: #FFFFFF;
+    --onlinefriend-text: #00A2E8;
     --border: #FFFFFF;
     --textbox-width: 75%;
     --current-width: 40vw;
@@ -17,7 +20,7 @@
 
 html{
 	background-color: var(--bg);
-    color: var(--text);
+    color: var(--metatext);
     font-family: 'Quicksand';
 }
 
@@ -61,11 +64,16 @@ body{
     margin-bottom: 1rem;
 }
 
+.spoken{
+    color: var(--spoken);
+}
+
 .onlinegirl {
     width: var(--textbox-width);
     margin-left: 0;
     margin-right: auto;
     overflow-wrap: break-word;
+    color: var(--onlinegirl-text);
 }
 
 .maninthelight {
