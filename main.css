@@ -22,6 +22,11 @@ body{
     justify-content: center;
 }
 
+.page{
+    max-width: 50vw;
+    text-align: left;
+}
+
 .panel{
     border: var(--border) solid .1rem;
     max-width: 50vw;
@@ -31,7 +36,9 @@ body{
     .panel{
         max-width: 90vw;
     }
-    
+    .page{
+        max-width: 90vw;
+    }
 }
 
 .title{
@@ -41,11 +48,6 @@ body{
 
 .subtitle{
     text-align: center;
-}
-
-.page{
-    max-width: 50vw;
-    text-align: left;
 }
 
 .onlinegirl {
