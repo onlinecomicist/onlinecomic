@@ -79,9 +79,9 @@ body{
     font-size: var(--next-font-size);
     color: var(--text);
     margin-bottom: 5rem;
+    display: block;
 }
 
 .btn:visited{
-    font-size: var(--next-font-size);
     color: var(--text);
 }
