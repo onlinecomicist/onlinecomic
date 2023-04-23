@@ -30,6 +30,10 @@ body{
     align-items: center;
 }
 
+.panelhousing{
+    max-width: inherit;
+}
+
 .panel{
     border: var(--border) solid .1rem;
     max-width: inherit;
