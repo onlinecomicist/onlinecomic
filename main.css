@@ -42,17 +42,19 @@ body{
     text-align: left;
 }
 
-.onlinegirl{
-    justify-content: left;
-    max-width: 60%;
+.onlinegirl {
+    width: 60%;
+    margin-left: 0;
+    margin-right: auto;
+    overflow-wrap: break-word;
 }
 
 .maninthelight {
-    position: relative;
     text-align: right;
-    left: 30%;
-    width: 70%;
+    width: 60%;
     overflow-wrap: break-word;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 .btn{
