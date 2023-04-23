@@ -25,7 +25,6 @@ body{
 .panel{
     border: var(--border) solid .1rem;
     max-width: 50vw;
-    max-height: 50vh;
 }
 
 .title{
