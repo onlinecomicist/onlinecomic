@@ -32,8 +32,8 @@ body{
 
 .panel{
     border: var(--border) solid .1rem;
-    height: 70vh;
-    width: auto;
+    min-height: auto;
+    min-width: 50vh;
     max-height: 70vh;
-    max-width: 50vh;
+    max-width: auto;
 }
