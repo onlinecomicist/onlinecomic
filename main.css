@@ -74,6 +74,11 @@ body{
     overflow-wrap: break-word;
 }
 
+.btncluster{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .btn{
     text-align: center;
     font-size: var(--next-font-size);
