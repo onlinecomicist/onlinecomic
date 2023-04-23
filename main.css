@@ -5,6 +5,7 @@
     --bg: #000000;
     --text: #FFFFFF;
     --border: #FFFFFF;
+    --textbox-width: 75%;
   }
 html{
 	background-color: var(--bg);
@@ -59,7 +60,7 @@ body{
 }
 
 .onlinegirl {
-    width: 60%;
+    width: var(--textbox-width);
     margin-left: 0;
     margin-right: auto;
     overflow-wrap: break-word;
@@ -67,10 +68,10 @@ body{
 
 .maninthelight {
     text-align: right;
-    width: 60%;
-    overflow-wrap: break-word;
-    margin-right: 0;
+    width: var(--textbox-width);
     margin-left: auto;
+    margin-right: 0;
+    overflow-wrap: break-word;
 }
 
 .btn{
