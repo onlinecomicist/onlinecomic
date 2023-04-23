@@ -27,6 +27,13 @@ body{
     max-width: 50vw;
 }
 
+@media screen and (max-width: 1282px){
+    .panel{
+        max-width: 90vw;
+    }
+    
+}
+
 .title{
     font-size: var(--title-font-size);
     text-align: center;
