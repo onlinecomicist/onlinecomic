@@ -47,10 +47,12 @@ body{
     max-width: 60%;
 }
 
-.maninthelight{
-    justify-content: right;
+.maninthelight {
+    position: relative;
     text-align: right;
-    max-width: 60%;
+    left: 30%;
+    width: 70%;
+    overflow-wrap: break-word;
 }
 
 .btn{
