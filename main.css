@@ -27,7 +27,7 @@ body{
     max-width: 50vw;
 }
 
-@media screen and (max-width: 428pts){
+@media screen and (max-width: 360px){
     .panel{
         max-width: 90vw;
     }
