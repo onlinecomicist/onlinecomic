@@ -7,6 +7,7 @@
     --metatext: #FFFFFF;
     --onlinegirl-text: #FFFFFF;
     --onlinefriend-text: #00A2E8;
+    --flux-text: #FF9B42;
     --border: #FFFFFF;
     --textbox-width: 75%;
     --current-width: 40vw;
@@ -89,6 +90,9 @@ body{
 
 .onlinefriend{
     color: var(--onlinefriend-text);
+}
+.flux{
+    color: var(--flux-text);
 }
 
 .btncluster{
