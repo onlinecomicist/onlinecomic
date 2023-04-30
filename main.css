@@ -87,6 +87,7 @@ body{
 
 .prose{
     text-align: left;
+    width: var(--current-width);
     margin-left: 0;
     margin-right: auto;
     overflow-wrap: break-word;
