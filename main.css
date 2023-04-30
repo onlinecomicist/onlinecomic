@@ -87,6 +87,8 @@ body{
 
 .prose{
     text-align: left;
+    margin-left: 0;
+    margin-right: auto;
     overflow-wrap: break-word;
 }
 
