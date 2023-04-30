@@ -6,6 +6,7 @@
     --spoken: #FFFFFF;
     --metatext: #FFFFFF;
     --onlinegirl-text: #FFFFFF;
+    --onlineauthor-text: #FFFFFF;
     --onlinefriend-text: #00A2E8;
     --flux-text: #FF9B42;
     --border: #FFFFFF;
@@ -84,6 +85,10 @@ body{
     overflow-wrap: break-word;
 }
 
+.prose{
+    overflow-wrap: break-word;
+}
+
 .onlinegirl{
     color: var(--onlinegirl-text);
 }
@@ -91,8 +96,13 @@ body{
 .onlinefriend{
     color: var(--onlinefriend-text);
 }
+
 .flux{
     color: var(--flux-text);
+}
+
+.onlineauthor{
+    color: var(--onlineauthor-text);
 }
 
 .btncluster{
